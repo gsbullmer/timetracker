@@ -15,5 +15,5 @@
 /log/*.log
 /tmp
 
-# Ignore Cloud9 IDE files
+# Ignore all Cloud9 IDE files
 /.c9
