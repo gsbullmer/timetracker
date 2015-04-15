@@ -9,9 +9,18 @@ projectxyz:
     company: clientinc
     default_rate: 60
     slug: project-xyz
+    user: brianhoke
 
 secondproj:
     name: Second Proj
     company: abcltd
     default_rate: 125
     slug: second-proj
+    user: brianhoke
+    
+gregsproject:
+    name: Greg's Project
+    company: gregsco
+    default_rate: 175
+    slug: gregs-project
+    user: gregbullmer

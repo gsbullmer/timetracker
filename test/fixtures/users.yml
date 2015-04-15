@@ -22,3 +22,10 @@ ralphmartinez:
     lname: Martinez
     company: clientinc
     email: rmartin@example.com
+    
+gregbullmer:
+    fname: Greg
+    lname: Bullmer
+    company: gregsco
+    email: gsbullmer@gmail.com
+    encrypted_password: <%= User.new.send(:password_digest, 'password') %>
