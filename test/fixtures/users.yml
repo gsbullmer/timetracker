@@ -10,18 +10,23 @@ brianhoke:
     company: bentleyhoke
     email: bhoke@bentleyhoke.com
     encrypted_password: <%= User.new.send(:password_digest, 'password') %>
+    admin: true
 
 janedoe:
     fname: Jane
     lname: Doe
     company: bentleyhoke
     email: jdoe@example.com
+    encrypted_password: <%= User.new.send(:password_digest, 'password') %>
+    admin: false
 
 ralphmartinez:
     fname: Ralph
     lname: Martinez
     company: clientinc
     email: rmartin@example.com
+    encrypted_password: <%= User.new.send(:password_digest, 'password') %>
+    admin: false
     
 gregbullmer:
     fname: Greg
@@ -29,3 +34,4 @@ gregbullmer:
     company: gregsco
     email: gsbullmer@gmail.com
     encrypted_password: <%= User.new.send(:password_digest, 'password') %>
+    admin: true
